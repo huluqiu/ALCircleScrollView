@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDFB7D3F1BD386DB00FBBBCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB7D3E1BD386DB00FBBBCB /* main.m */; };
+		EDFB7D421BD386DB00FBBBCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB7D411BD386DB00FBBBCB /* AppDelegate.m */; };
+		EDFB7D481BD386DB00FBBBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFB7D461BD386DB00FBBBCB /* Main.storyboard */; };
+		EDFB7D4A1BD386DB00FBBBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFB7D491BD386DB00FBBBCB /* Assets.xcassets */; };
+		EDFB7D4D1BD386DB00FBBBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFB7D4B1BD386DB00FBBBCB /* LaunchScreen.storyboard */; };
+		EDFB7D561BD3872400FBBBCB /* ALCircleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB7D551BD3872400FBBBCB /* ALCircleScrollView.m */; };
+		EDFB7D5A1BD38E5E00FBBBCB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB7D591BD38E5E00FBBBCB /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDFB7D3A1BD386DB00FBBBCB /* ALCircleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALCircleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFB7D3E1BD386DB00FBBBCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDFB7D401BD386DB00FBBBCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDFB7D411BD386DB00FBBBCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDFB7D471BD386DB00FBBBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDFB7D491BD386DB00FBBBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDFB7D4C1BD386DB00FBBBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDFB7D4E1BD386DB00FBBBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFB7D541BD3872400FBBBCB /* ALCircleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALCircleScrollView.h; path = ALCircleScrollView/ALCircleScrollView.h; sourceTree = "<group>"; };
+		EDFB7D551BD3872400FBBBCB /* ALCircleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALCircleScrollView.m; path = ALCircleScrollView/ALCircleScrollView.m; sourceTree = "<group>"; };
+		EDFB7D581BD38E5E00FBBBCB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EDFB7D591BD38E5E00FBBBCB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDFB7D371BD386DB00FBBBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDFB7D311BD386DB00FBBBCB = {
+			isa = PBXGroup;
+			children = (
+				EDFB7D3C1BD386DB00FBBBCB /* ALCircleScrollView */,
+				EDFB7D3B1BD386DB00FBBBCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDFB7D3B1BD386DB00FBBBCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB7D3A1BD386DB00FBBBCB /* ALCircleScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDFB7D3C1BD386DB00FBBBCB /* ALCircleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB7D571BD3872D00FBBBCB /* ALCircleScrollView */,
+				EDFB7D401BD386DB00FBBBCB /* AppDelegate.h */,
+				EDFB7D411BD386DB00FBBBCB /* AppDelegate.m */,
+				EDFB7D581BD38E5E00FBBBCB /* TableViewController.h */,
+				EDFB7D591BD38E5E00FBBBCB /* TableViewController.m */,
+				EDFB7D461BD386DB00FBBBCB /* Main.storyboard */,
+				EDFB7D491BD386DB00FBBBCB /* Assets.xcassets */,
+				EDFB7D4B1BD386DB00FBBBCB /* LaunchScreen.storyboard */,
+				EDFB7D4E1BD386DB00FBBBCB /* Info.plist */,
+				EDFB7D3D1BD386DB00FBBBCB /* Supporting Files */,
+			);
+			path = ALCircleScrollView;
+			sourceTree = "<group>";
+		};
+		EDFB7D3D1BD386DB00FBBBCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB7D3E1BD386DB00FBBBCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDFB7D571BD3872D00FBBBCB /* ALCircleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB7D541BD3872400FBBBCB /* ALCircleScrollView.h */,
+				EDFB7D551BD3872400FBBBCB /* ALCircleScrollView.m */,
+			);
+			name = ALCircleScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDFB7D391BD386DB00FBBBCB /* ALCircleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFB7D511BD386DB00FBBBCB /* Build configuration list for PBXNativeTarget "ALCircleScrollView" */;
+			buildPhases = (
+				EDFB7D361BD386DB00FBBBCB /* Sources */,
+				EDFB7D371BD386DB00FBBBCB /* Frameworks */,
+				EDFB7D381BD386DB00FBBBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALCircleScrollView;
+			productName = ALCircleScrollView;
+			productReference = EDFB7D3A1BD386DB00FBBBCB /* ALCircleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDFB7D321BD386DB00FBBBCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = alezai;
+				TargetAttributes = {
+					EDFB7D391BD386DB00FBBBCB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EDFB7D351BD386DB00FBBBCB /* Build configuration list for PBXProject "ALCircleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDFB7D311BD386DB00FBBBCB;
+			productRefGroup = EDFB7D3B1BD386DB00FBBBCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDFB7D391BD386DB00FBBBCB /* ALCircleScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDFB7D381BD386DB00FBBBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFB7D4D1BD386DB00FBBBCB /* LaunchScreen.storyboard in Resources */,
+				EDFB7D4A1BD386DB00FBBBCB /* Assets.xcassets in Resources */,
+				EDFB7D481BD386DB00FBBBCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDFB7D361BD386DB00FBBBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFB7D561BD3872400FBBBCB /* ALCircleScrollView.m in Sources */,
+				EDFB7D421BD386DB00FBBBCB /* AppDelegate.m in Sources */,
+				EDFB7D5A1BD38E5E00FBBBCB /* TableViewController.m in Sources */,
+				EDFB7D3F1BD386DB00FBBBCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDFB7D461BD386DB00FBBBCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFB7D471BD386DB00FBBBCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDFB7D4B1BD386DB00FBBBCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFB7D4C1BD386DB00FBBBCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDFB7D4F1BD386DB00FBBBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDFB7D501BD386DB00FBBBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDFB7D521BD386DB00FBBBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ALCircleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alezai.ALCircleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDFB7D531BD386DB00FBBBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ALCircleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alezai.ALCircleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDFB7D351BD386DB00FBBBCB /* Build configuration list for PBXProject "ALCircleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFB7D4F1BD386DB00FBBBCB /* Debug */,
+				EDFB7D501BD386DB00FBBBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFB7D511BD386DB00FBBBCB /* Build configuration list for PBXNativeTarget "ALCircleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFB7D521BD386DB00FBBBCB /* Debug */,
+				EDFB7D531BD386DB00FBBBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDFB7D321BD386DB00FBBBCB /* Project object */;
+}
