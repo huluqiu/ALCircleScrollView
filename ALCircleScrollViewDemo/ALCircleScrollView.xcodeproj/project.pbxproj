@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0BCC5B1CA418D90031FEEE /* ALCircleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0BCC5A1CA418D90031FEEE /* ALCircleScrollView.m */; };
 		EDFB7D3F1BD386DB00FBBBCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB7D3E1BD386DB00FBBBCB /* main.m */; };
 		EDFB7D421BD386DB00FBBBCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB7D411BD386DB00FBBBCB /* AppDelegate.m */; };
 		EDFB7D481BD386DB00FBBBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFB7D461BD386DB00FBBBCB /* Main.storyboard */; };
 		EDFB7D4A1BD386DB00FBBBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFB7D491BD386DB00FBBBCB /* Assets.xcassets */; };
 		EDFB7D4D1BD386DB00FBBBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFB7D4B1BD386DB00FBBBCB /* LaunchScreen.storyboard */; };
-		EDFB7D561BD3872400FBBBCB /* ALCircleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB7D551BD3872400FBBBCB /* ALCircleScrollView.m */; };
 		EDFB7D5A1BD38E5E00FBBBCB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB7D591BD38E5E00FBBBCB /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0BCC591CA418D90031FEEE /* ALCircleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCircleScrollView.h; sourceTree = "<group>"; };
+		ED0BCC5A1CA418D90031FEEE /* ALCircleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCircleScrollView.m; sourceTree = "<group>"; };
 		EDFB7D3A1BD386DB00FBBBCB /* ALCircleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALCircleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFB7D3E1BD386DB00FBBBCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDFB7D401BD386DB00FBBBCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -25,8 +27,6 @@
 		EDFB7D491BD386DB00FBBBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDFB7D4C1BD386DB00FBBBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDFB7D4E1BD386DB00FBBBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDFB7D541BD3872400FBBBCB /* ALCircleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALCircleScrollView.h; path = ALCircleScrollView/ALCircleScrollView.h; sourceTree = "<group>"; };
-		EDFB7D551BD3872400FBBBCB /* ALCircleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALCircleScrollView.m; path = ALCircleScrollView/ALCircleScrollView.m; sourceTree = "<group>"; };
 		EDFB7D581BD38E5E00FBBBCB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		EDFB7D591BD38E5E00FBBBCB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +42,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED0BCC581CA418D90031FEEE /* ALCircleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				ED0BCC591CA418D90031FEEE /* ALCircleScrollView.h */,
+				ED0BCC5A1CA418D90031FEEE /* ALCircleScrollView.m */,
+			);
+			name = ALCircleScrollView;
+			path = ../../ALCircleScrollView;
+			sourceTree = "<group>";
+		};
 		EDFB7D311BD386DB00FBBBCB = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +71,7 @@
 		EDFB7D3C1BD386DB00FBBBCB /* ALCircleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				EDFB7D571BD3872D00FBBBCB /* ALCircleScrollView */,
+				ED0BCC581CA418D90031FEEE /* ALCircleScrollView */,
 				EDFB7D401BD386DB00FBBBCB /* AppDelegate.h */,
 				EDFB7D411BD386DB00FBBBCB /* AppDelegate.m */,
 				EDFB7D581BD38E5E00FBBBCB /* TableViewController.h */,
@@ -81,15 +91,6 @@
 				EDFB7D3E1BD386DB00FBBBCB /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EDFB7D571BD3872D00FBBBCB /* ALCircleScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				EDFB7D541BD3872400FBBBCB /* ALCircleScrollView.h */,
-				EDFB7D551BD3872400FBBBCB /* ALCircleScrollView.m */,
-			);
-			name = ALCircleScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDFB7D561BD3872400FBBBCB /* ALCircleScrollView.m in Sources */,
+				ED0BCC5B1CA418D90031FEEE /* ALCircleScrollView.m in Sources */,
 				EDFB7D421BD386DB00FBBBCB /* AppDelegate.m in Sources */,
 				EDFB7D5A1BD38E5E00FBBBCB /* TableViewController.m in Sources */,
 				EDFB7D3F1BD386DB00FBBBCB /* main.m in Sources */,
